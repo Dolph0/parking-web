@@ -1,0 +1,13 @@
+.hero-carousel {
+    .slick-slide{
+        max-width: 213px !important;
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+    .slick-slider{
+        max-width: 1200px !important;
+        @media screen and (min-width: 1561px) {
+            margin: auto; // Your specific margin for screens wider than 1560px
+          }
+    }
+  }
